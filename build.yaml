@@ -20,8 +20,8 @@
 ---
 include:
   - board: xiao_ble
-    shield: totem_left
+    shield: totem_left forager_left rgbled_adapter
   - board: xiao_ble
-    shield: totem_right
+    shield: totem_right forager_right rgbled_adapter
   - board: xiao_ble
     shield: settings_reset
