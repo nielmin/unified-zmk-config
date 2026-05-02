@@ -89,8 +89,8 @@
       bindings = <
                 &kp B       &kp L       &kp D       &kp C       &kp V               &kp J           &kp Y       &kp O       &kp U       &kp SQT
                 &kp N       &kp R       &kp T       &kp S       &kp G               &kp P           &kp H       &kp A       &kp E       &kp I
-    &none       &kp X       &kp Q       &kp M       &kp W       &kp Z               &kp K           &kp F       &kp COMMA   &kp DOT     &kp FSLH  &none
-                                        &none       &mo NAV     &kp SPACE           &kp RSHFT       &mo SYM     &none
+                &kp X       &kp Q       &kp M       &kp W       &kp Z               &kp K           &kp F       &kp COMMA   &kp DOT     &kp FSLH
+                                                    &mo NAV     &kp SPACE           &kp RSHFT       &mo SYM
         >;
     };
 
@@ -98,8 +98,8 @@
       bindings = <
                 &kp ESC     &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &none           &kp PG_UP   &kp INS     &kp HOME    &kp END     &kp DEL
                 &sk LGUI    &sk LALT      &sk LCTL      &sk LSHFT     &key_repeat     &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
-    &trans      &none       &none         &none         &kp TAB       &none           &none       &kp BSPC    &kp TAB     &mo ADJ     &kp RET     &trans
-                                          &none         &trans        &trans          &trans      &trans      &none
+                &none       &none         &none         &kp TAB       &none           &none       &kp BSPC    &kp TAB     &mo ADJ     &kp RET
+                                                        &trans        &trans          &trans      &trans
         >;
     };
 
@@ -107,8 +107,8 @@
       bindings = <
                 &kp N1      &kp N2       &kp N3      &kp N4       &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
                 &kp TILDE   &kp GRAVE    &kp LBRC    &kp LPAR     &kp LBKT        &kp COLON   &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
-    &trans      &kp LT      &kp GT       &kp RBRC    &kp RPAR     &kp RBKT        &kp PIPE    &kp MINUS   &kp EQUAL   &kp PLUS    &kp BSLH     &trans
-                                         &none       &trans       &trans          &trans      &trans      &none
+                &kp LT      &kp GT       &kp RBRC    &kp RPAR     &kp RBKT        &kp PIPE    &kp MINUS   &kp EQUAL   &kp PLUS    &kp BSLH
+                                                     &trans       &trans          &trans      &trans
         >;
     };
     
@@ -116,8 +116,8 @@
       bindings = <
                 &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
                 &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   &kp F11         &kp F12     &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
-    &trans      &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &trans
-                                        &trans      &trans      &trans          &trans      &trans      &trans      
+                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
+                                                    &trans      &trans          &trans      &trans
         >;
     };
  
@@ -126,8 +126,8 @@
 
                 &sys_reset     &bt BT_CLR  &out OUT_TOG  &trans   &trans          &trans      &trans      &trans      &trans      &trans
                 &bootloader    &bt BT_NXT  &trans        &trans   &trans          &trans      &trans      &trans      &trans      &trans
-    &trans      &bt BT_CLR_ALL &bt BT_PRV  &trans        &trans   &trans          &trans      &trans      &trans      &trans      &trans  &trans
-                                           &trans        &trans   &trans          &trans      &trans      &trans
+                &bt BT_CLR_ALL &bt BT_PRV  &trans        &trans   &trans          &trans      &trans      &trans      &trans      &trans
+                                                         &trans   &trans          &trans      &trans
         >;
     };
 	};
