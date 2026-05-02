@@ -22,6 +22,7 @@ include:
   - board: xiao_ble//zmk
     shield: totem_left forager_left rgbled_adapter
     snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: xiao_ble//zmk
     shield: totem_right forager_right rgbled_adapter
   - board: xiao_ble//zmk
