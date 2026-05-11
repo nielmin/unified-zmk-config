@@ -21,7 +21,7 @@
 
 / {
 
-  #include "combos.dtsi"
+  #include "combos.keymap"
 
   conditional_layers {
     compatible = "zmk,conditional-layers";
