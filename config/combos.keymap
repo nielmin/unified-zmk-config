@@ -6,50 +6,60 @@
       timeout-ms = COMBO_TERM_MS;
       key-positions = <0 10>;
       bindings = <&kp EXCL>;
+      layers = <0>;
     };
     combo_at {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <1 11>;
       bindings = <&kp AT>;
+      layers = <0>;
     };
     combo_hash {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <2 12>;
       bindings = <&kp HASH>;
+      layers = <0>;
     };
     combo_dllr {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <3 13>;
       bindings = <&kp DLLR>;
+      layers = <0>;
     };
     combo_prcnt {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <4 14>;
       bindings = <&kp PRCNT>;
+      layers = <0>;
     };
     combo_caret {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <5 15>;
       bindings = <&kp CARET>;
+      layers = <0>;
     };
     combo_amps {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <6 16>;
       bindings = <&kp AMPS>;
+      layers = <0>;
     };
     combo_star {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <7 17>;
       bindings = <&kp STAR>;
+      layers = <0>;
     };
     combo_under {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <8 18>;
       bindings = <&kp UNDER>;
+      layers = <0>;
     };
     combo_semi {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <9 19>;
       bindings = <&kp SEMI>;
+      layers = <0>;
     };
   };
