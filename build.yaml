@@ -30,3 +30,9 @@ include:
     shield: forager_right rgbled_adapter
   - board: xiao_ble//zmk
     shield: settings_reset
+  - board: nice_nano//zmk
+    shield: bling_left
+  - board: nice_nano//zmk
+    shield: bling_right
+  - board: nice_nano//zmk
+    shield: settings_reset
