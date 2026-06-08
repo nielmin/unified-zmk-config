@@ -62,10 +62,10 @@
     
     sysfun_layer {
       bindings = <
-                &bootloader &sys_reset  &bt BT_PRV  &bt BT_CLR  &bt BT_NXT      &trans      &trans      &trans      &trans      &bt BT_CLR_ALL
-                &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   &kp F11         &kp F12     &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
-                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
-                                                    &trans      &trans          &trans      &trans
+                &bootloader &sys_reset  &bt BT_PRV  &bt BT_CLR  &bt BT_NXT      &studio_unlock  &trans      &trans      &trans      &bt BT_CLR_ALL
+                &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   &kp F11         &kp F12         &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
+                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6          &kp F7      &kp F8      &kp F9      &kp F10
+                                                    &trans      &trans          &trans          &trans
         >;
     };
 	};
