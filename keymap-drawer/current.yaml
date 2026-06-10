@@ -1,0 +1,174 @@
+layout: {zmk_keyboard: bling}
+layers:
+  base: [B, L, D, C, V, J, Y, O, U, '''', N, R, T, S, G, P, H, A, E, I, X, Q, M, W, Z, K, F, ',', ., /, nav, SPACE, RSHFT, sym]
+  nav:
+  - ESC
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - ''
+  - PG UP
+  - INS
+  - HOME
+  - END
+  - DEL
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - '&key_repeat'
+  - PG DN
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - TAB
+  - ''
+  - ''
+  - BSPC
+  - TAB
+  - adjust
+  - RET
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  sym:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '~'
+  - '`'
+  - '{'
+  - (
+  - '['
+  - ':'
+  - {t: RSHFT, h: sticky}
+  - {t: RCTL, h: sticky}
+  - {t: RALT, h: sticky}
+  - {t: RGUI, h: sticky}
+  - <
+  - '>'
+  - '}'
+  - )
+  - ']'
+  - '|'
+  - '-'
+  - '='
+  - +
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  numfun:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - F11
+  - F12
+  - {t: RSHFT, h: sticky}
+  - {t: RCTL, h: sticky}
+  - {t: RALT, h: sticky}
+  - {t: RGUI, h: sticky}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  adjust:
+  - '&bootloader'
+  - BT PRV
+  - OUT TOG
+  - BT NXT
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 10]
+  k: '!'
+  l: [base]
+- p: [1, 11]
+  k: '@'
+  l: [base]
+- p: [2, 12]
+  k: '#'
+  l: [base]
+- p: [3, 13]
+  k: $
+  l: [base]
+- p: [4, 14]
+  k: '%'
+  l: [base]
+- p: [5, 15]
+  k: ^
+  l: [base]
+- p: [6, 16]
+  k: '&'
+  l: [base]
+- p: [7, 17]
+  k: '*'
+  l: [base]
+- p: [8, 18]
+  k: _
+  l: [base]
+- p: [9, 19]
+  k: ;
+  l: [base]
