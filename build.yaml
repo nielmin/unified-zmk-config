@@ -31,8 +31,8 @@ include:
   ## - board: xiao_ble//zmk
   ##   shield: settings_reset
   - board: nice_nano//zmk
-    shield: bling_left rgbled_adapter
+    shield: bling_left
   - board: nice_nano//zmk
-    shield: bling_right rgbled_adapter
+    shield: bling_right
   - board: nice_nano//zmk
     shield: settings_reset
