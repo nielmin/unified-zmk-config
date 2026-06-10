@@ -6,4 +6,4 @@
 - [TOTEM Wireless](https://github.com/GEIGEIGEIST/TOTEM)
 
 ## My 34-key keymap
-![Forager keymap](keymap-drawer/forager.svg)
+![Current keymap for current keyboard](assets/bling.svg)
