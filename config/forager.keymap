@@ -20,7 +20,7 @@
 
 / {
 
-  #include "combos.keymap"
+  #include "combos.dtsi"
 
   conditional_layers {
     compatible = "zmk,conditional-layers";
