@@ -25,7 +25,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - TAB
   - ''
   - ''
   - BSPC
@@ -33,7 +33,7 @@ layers:
   - ''
   - ENTER
   - {type: held}
-  - TAB
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   sym:
