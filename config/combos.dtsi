@@ -1,4 +1,4 @@
-#define COMBO_TERM_MS <30>
+#define COMBO_TERM_MS <40>
 
   combos {
     compatible = "zmk,combos";
