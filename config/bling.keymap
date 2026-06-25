@@ -38,7 +38,7 @@
                 &kp B       &kp L       &kp D       &kp C       &kp V               &kp J           &kp Y       &kp O       &kp U       &kp SQT
                 &kp N       &kp R       &kp T       &kp S       &kp G               &kp P           &kp H       &kp A       &kp E       &kp I
                 &kp X       &kp Q       &kp M       &kp W       &kp Z               &kp K           &kp F       &kp COMMA   &kp DOT     &kp FSLH
-                                                    &mo NAV     &lt SYM SPACE       &kp RSHFT       &mo SYM
+                                                    &mo NAV     &kp SPACE           &kp RSHFT       &mo SYM
         >;
     };
 
