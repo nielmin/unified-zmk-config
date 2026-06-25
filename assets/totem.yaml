@@ -183,8 +183,8 @@ combos:
   k: '*'
   l: [base]
 - p: [8, 18]
-  k: _
+  k: ;
   l: [base]
 - p: [9, 19]
-  k: ;
+  k: _
   l: [base]

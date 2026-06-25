@@ -1,40 +1,6 @@
 layout: {zmk_keyboard: bling}
 layers:
-  base:
-  - B
-  - L
-  - D
-  - C
-  - V
-  - J
-  - Y
-  - O
-  - U
-  - ''''
-  - N
-  - R
-  - T
-  - S
-  - G
-  - P
-  - H
-  - A
-  - E
-  - I
-  - X
-  - Q
-  - M
-  - W
-  - Z
-  - K
-  - F
-  - ','
-  - .
-  - /
-  - nav
-  - {t: SPACE, h: sym}
-  - RSHFT
-  - sym
+  base: [B, L, D, C, V, J, Y, O, U, '''', N, R, T, S, G, P, H, A, E, I, X, Q, M, W, Z, K, F, ',', ., /, nav, SPACE, RSHFT, sym]
   nav:
   - ESC
   - VOL DN
@@ -102,9 +68,9 @@ layers:
   - +
   - \
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   numfun:
   - '&bootloader'
   - BT PRV
@@ -137,9 +103,9 @@ layers:
   - F9
   - F10
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [0, 10]
   k: '!'
@@ -166,8 +132,8 @@ combos:
   k: '*'
   l: [base]
 - p: [8, 18]
-  k: _
+  k: ;
   l: [base]
 - p: [9, 19]
-  k: ;
+  k: _
   l: [base]
