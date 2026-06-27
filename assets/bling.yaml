@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: bling}
 layers:
-  base: [B, L, D, C, V, J, Y, O, U, '''', N, R, T, S, G, P, H, A, E, I, X, Q, M, W, Z, K, F, ',', ., /, nav, SPACE, RSHFT, sym]
+  base: [B, L, D, C, V, J, Y, O, U, ;, N, R, T, S, G, P, H, A, E, I, X, Q, M, W, Z, K, F, ',', ., /, nav, SPACE, RSHFT, sym]
   nav:
   - ESC
   - VOL DN
@@ -132,8 +132,8 @@ combos:
   k: '*'
   l: [base]
 - p: [8, 18]
-  k: ;
+  k: _
   l: [base]
 - p: [9, 19]
-  k: _
+  k: ''''
   l: [base]
