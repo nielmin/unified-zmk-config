@@ -52,7 +52,7 @@ layers:
   - '{'
   - (
   - '['
-  - ':'
+  - ''''
   - {t: RSHFT, h: sticky}
   - {t: RCTL, h: sticky}
   - {t: RALT, h: sticky}
