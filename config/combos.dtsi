@@ -53,13 +53,13 @@
     combo_under {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <8 18>;
-      bindings = <&kp SEMI>;
+      bindings = <&kp UNDER>;
       layers = <0>;
     };
     combo_semi {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <9 19>;
-      bindings = <&kp UNDER>;
+      bindings = <&kp SQT>;
       layers = <0>;
     };
   };
