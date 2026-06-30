@@ -55,7 +55,7 @@
       bindings = <
                 &kp N1      &kp N2       &kp N3      &kp N4       &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
                 &kp TILDE   &kp GRAVE    &kp LBRC    &kp LPAR     &kp LBKT        &kp COLON   &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
-                &kp LT      &kp GT       &kp RBRC    &kp RPAR     &kp RBKT        &kp BSLH    &kp MINUS   &kp EQUAL   &none       &kp SEMI
+                &kp LT      &kp GT       &kp RBRC    &kp RPAR     &kp RBKT        &kp PIPE    &kp MINUS   &kp EQUAL   &kp BSLH    &kp SEMI
                                                      &trans       &kp LSHFT       &trans      &trans
         >;
     };
