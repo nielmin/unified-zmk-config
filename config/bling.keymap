@@ -25,7 +25,7 @@
 
 / {
 
-  // #include "combos.dtsi"
+  #include "combos.dtsi"
 
   conditional_layers {
     compatible = "zmk,conditional-layers";
@@ -51,7 +51,7 @@
       bindings = <
                 &kp ESC     &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &none           &kp PG_UP   &kp INS     &kp HOME    &kp END     &kp DEL
                 &sk LGUI    &sk LALT      &sk LCTL      &sk LSHFT     &key_repeat     &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
-                &tog SYS    &none         &kp TAB       &none         &none           &none       &kp BSPC    &kp TAB     &none       &kp ENTER
+                &none       &none         &kp TAB       &none         &none           &none       &kp BSPC    &kp TAB     &none       &kp ENTER
                                                         &trans        &trans          &trans      &trans
         >;
     };
@@ -67,7 +67,7 @@
 
     numfun_layer {
       bindings = <
-                &kp EXCL      &kp AT        &kp HASH      &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp STAR    &kp UNDER   &kp BSLH
+                &tog SYS      &none         &none         &none       &none           &none       &none       &none       &none           &none
                 &sk LGUI      &sk LALT      &sk LCTL      &sk LSHFT   &kp F11         &kp F12     &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
                 &kp F1        &kp F2        &kp F3        &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
                                                           &trans      &trans          &trans      &trans
