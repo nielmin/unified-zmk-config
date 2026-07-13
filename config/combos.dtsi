@@ -59,7 +59,7 @@
     combo_semi {
       timeout-ms = COMBO_TERM_MS;
       key-positions = <9 19>;
-      bindings = <&kp SQT>;
+      bindings = <&kp SEMI>;
       layers = <0>;
     };
   };
