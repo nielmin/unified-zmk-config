@@ -56,10 +56,10 @@
       bindings = <&kp UNDER>;
       layers = <0>;
     };
-    combo_sqt {
-      timeout-ms = COMBO_TERM_MS;
-      key-positions = <9 19>;
-      bindings = <&kp SQT>;
-      layers = <0>;
-    };
+    // combo_sqt {
+    //   timeout-ms = COMBO_TERM_MS;
+    //   key-positions = <9 19>;
+    //   bindings = <&kp SQT>;
+    //   layers = <0>;
+    // };
   };
