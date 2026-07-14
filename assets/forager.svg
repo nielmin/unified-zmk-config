@@ -310,10 +310,6 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="602" y="59" width="28" height="26" class="combo"/>
 <text x="616" y="72" class="combo tap">_</text>
 </g>
-<g class="combo combopos-9">
-<rect rx="6" ry="6" x="658" y="77" width="28" height="26" class="combo"/>
-<text x="672" y="90" class="combo tap">&#x27;</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 351)" class="layer-nav">
