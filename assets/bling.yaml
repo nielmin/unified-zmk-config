@@ -33,7 +33,7 @@ layers:
   - ''
   - ENTER
   - {type: held}
-  - LSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   sym:
@@ -68,7 +68,7 @@ layers:
   - \
   - ;
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
   - {t: ▽, type: trans}
   - {type: held}
   numfun:
