@@ -42,7 +42,7 @@
                 &kp B       &kp L       &kp D       &kp C       &kp V               &kp J           &kp Y       &kp O       &kp U       &kp SQT
                 &kp N       &kp R       &kp T       &kp S       &kp G               &kp P           &kp H       &kp A       &kp E       &kp I
                 &kp X       &kp Q       &kp M       &kp W       &kp Z               &kp K           &kp F       &kp COMMA   &kp DOT     &kp FSLH
-                                                    &mo NAV     &kp SPACE           &mt RSHFT RET   &mo SYM
+                                                    &mo NAV     &kp SPACE           &mt RSHFT ENTER &mo SYM
         >;
     };
 
@@ -51,7 +51,7 @@
                 &kp ESC     &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &none           &kp PG_UP   &kp INS     &kp HOME    &kp END     &kp DEL
                 &sk LGUI    &sk LALT      &sk LCTL      &sk LSHFT     &key_repeat     &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
                 &none       &none         &none         &kp TAB       &none           &none       &kp BSPC    &kp TAB     &none       &kp ENTER
-                                                        &trans        &trans         &trans      &trans
+                                                        &trans        &trans          &trans      &trans
         >;
     };
 
