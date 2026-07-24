@@ -33,7 +33,7 @@ layers:
   - /
   - nav
   - SPACE
-  - {t: RET, h: RSHFT}
+  - {t: ENTER, h: RSHFT}
   - sym
   nav:
   - ESC
