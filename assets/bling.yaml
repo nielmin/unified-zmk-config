@@ -44,8 +44,8 @@ layers:
   - PG UP
   - HOME
   - END
-  - INS
-  - DEL
+  - ''
+  - ''
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTL, h: sticky}
@@ -57,9 +57,9 @@ layers:
   - UP
   - RIGHT
   - ''
-  - DEL
   - INS
   - TAB
+  - DEL
   - ''
   - ''
   - BSPC
