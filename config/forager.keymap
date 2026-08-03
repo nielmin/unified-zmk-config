@@ -6,7 +6,7 @@
 #define BASE 0
 #define NAV  1
 #define SYM  2
-#define SYF  3
+#define NFN  3
 
 &mt {
   flavor = "hold-preferred";
@@ -30,43 +30,6 @@
       };
   };
 
-  keymap {
-    compatible = "zmk,keymap";
+  #include "34-keys.keymap"
 
-    base_layer {
-      bindings = <
-                &kp B       &kp L       &kp D       &kp C       &kp V               &kp J           &kp Y       &kp O       &kp U       &kp SQT
-                &kp N       &kp R       &kp T       &kp S       &kp G               &kp P           &kp H       &kp A       &kp E       &kp I
-                &kp X       &kp Q       &kp M       &kp W       &kp Z               &kp K           &kp F       &kp COMMA   &kp DOT     &kp FSLH
-                                                    &mo NAV     &kp SPACE           &kp RSHFT       &mo SYM
-        >;
-    };
-
-    nav_layer {
-      bindings = <
-                &kp ESC     &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &none           &kp PG_UP   &kp INS     &kp HOME    &kp END     &kp DEL
-                &sk LGUI    &sk LALT      &sk LCTL      &sk LSHFT     &key_repeat     &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
-                &none       &none         &none         &kp TAB       &none           &none       &kp BSPC    &kp TAB     &none       &kp RET
-                                                        &trans        &trans          &trans      &trans
-        >;
-    };
-
-    sym_layer {
-      bindings = <
-                &kp N1      &kp N2       &kp N3      &kp N4       &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-                &kp TILDE   &kp GRAVE    &kp LBRC    &kp LPAR     &kp LBKT        &kp COLON   &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
-                &kp LT      &kp GT       &kp RBRC    &kp RPAR     &kp RBKT        &kp PIPE    &kp MINUS   &kp EQUAL   &kp PLUS    &kp BSLH
-                                                     &trans       &sk LSHFT       &trans      &trans
-        >;
-    };
-    
-    sysfun_layer {
-      bindings = <
-                &bootloader &sys_reset  &bt BT_PRV  &bt BT_CLR  &bt BT_NXT      &studio_unlock  &trans      &trans      &trans      &bt BT_CLR_ALL
-                &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   &kp F11         &kp F12         &sk RSHFT   &sk RCTL    &sk RALT    &sk RGUI
-                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6          &kp F7      &kp F8      &kp F9      &kp F10
-                                                    &trans      &trans          &trans          &trans
-        >;
-    };
-	};
 };
