@@ -30,6 +30,6 @@
       };
   };
 
-  #include "34-keys.keymap"
+  #include "34-keys.dtsi"
 
 };
