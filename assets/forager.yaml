@@ -8,9 +8,9 @@ layers:
   - VOL UP
   - ''
   - PG UP
+  - HOME
   - ''
-  - ''
-  - ''
+  - END
   - ''
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
