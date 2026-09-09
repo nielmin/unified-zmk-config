@@ -56,16 +56,16 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - END
-  - HOME
+  - ''
+  - DEL
   - TAB
   - INS
-  - DEL
+  - ''
   - ''
   - BSPC
   - TAB
   - ''
-  - ENTER
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
