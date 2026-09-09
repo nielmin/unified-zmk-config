@@ -62,4 +62,16 @@
     //   bindings = <&kp SQT>;
     //   layers = <0>;
     // };
+    combo_under {
+      timeout-ms = COMBO_TERM_MS;
+      key-positions = <30 31>;
+      bindings = <&mo SYM>;
+      layers = <0>;
+    };
+    combo_under {
+      timeout-ms = COMBO_TERM_MS;
+      key-positions = <32 33>;
+      bindings = <&mo NAV>;
+      layers = <0>;
+    };
   };
