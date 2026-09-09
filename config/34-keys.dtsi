@@ -3,7 +3,7 @@ base_layer {
     &kp B         &kp L         &kp D         &kp C         &kp V             &kp J       &kp Y       &kp O       &kp U       &kp SQT
     &kp N         &kp R         &kp T         &kp S         &kp G             &kp P       &kp H       &kp A       &kp E       &kp I
     &kp X         &kp Q         &kp M         &kp W         &kp Z             &kp K       &kp F       &kp COMMA   &kp DOT     &kp FSLH
-                                              &mo NAV       &kp SPACE         &mt RSHFT   ENTER &mo SYM
+                                              &mo NAV       &kp SPACE         &kp RSHFT   &mo SYM
   >;
 };
 
@@ -11,7 +11,7 @@ nav_layer {
   bindings = <
     &kp ESC       &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &none             &kp PG_UP   &none       &none       &none       &none
     &sk LGUI      &sk LALT      &sk LCTL      &sk LSHFT     &key_repeat       &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
-    &none         &kp DEL       &kp TAB       &kp INS       &none             &none       &kp BSPC    &kp TAB     &none       &none
+    &none         &kp DEL       &kp TAB       &kp INS       &none             &none       &kp BSPC    &kp TAB     &none       &kp ENT
                                               &trans        &trans            &trans      &trans
   >;
 };
