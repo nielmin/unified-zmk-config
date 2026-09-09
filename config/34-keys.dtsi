@@ -9,7 +9,7 @@ base_layer {
 
 nav_layer {
   bindings = <
-    &kp ESC       &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &none             &kp PG_UP   &none       &none       &none       &none
+    &kp ESC       &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &none             &kp PG_UP   &kp HOME    &none       &kp END     &none
     &sk LGUI      &sk LALT      &sk LCTL      &sk LSHFT     &key_repeat       &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
     &none         &kp DEL       &kp TAB       &kp INS       &none             &none       &kp BSPC    &kp TAB     &none       &kp RET
                                               &trans        &trans            &trans      &trans
