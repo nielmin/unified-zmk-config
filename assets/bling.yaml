@@ -31,7 +31,7 @@ layers:
   - BSPC
   - TAB
   - ''
-  - ENT
+  - RET
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
