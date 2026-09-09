@@ -42,8 +42,8 @@ layers:
   - VOL UP
   - ''
   - PG UP
-  - HOME
-  - END
+  - ''
+  - ''
   - ''
   - ''
   - {t: LGUI, h: sticky}
@@ -56,11 +56,11 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - ''
-  - INS
+  - END
+  - HOME
   - TAB
+  - INS
   - DEL
-  - ''
   - ''
   - BSPC
   - TAB
@@ -167,10 +167,4 @@ combos:
   l: [base]
 - p: [8, 18]
   k: _
-  l: [base]
-- p: [30, 31]
-  k: sym
-  l: [base]
-- p: [32, 33]
-  k: nav
   l: [base]
