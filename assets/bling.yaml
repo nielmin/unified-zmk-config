@@ -6,7 +6,7 @@ layers:
   - VOL DN
   - MUTE
   - VOL UP
-  - ''
+  - {t: sys, h: toggle}
   - PG UP
   - HOME
   - ''
@@ -71,17 +71,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  numfun:
-  - '&sys_reset'
-  - BT PRV
-  - OUT TOG
-  - BT NXT
-  - '&bootloader'
-  - '&bootloader'
+  fun:
   - ''
   - ''
-  - BT CLR ALL
-  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTL, h: sticky}
@@ -106,3 +106,38 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  sys:
+  - '&sys_reset'
+  - BT PRV
+  - OUT TOG
+  - BT NXT
+  - '&bootloader'
+  - '&bootloader'
+  - ''
+  - ''
+  - BT CLR ALL
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
