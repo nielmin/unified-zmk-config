@@ -19,6 +19,11 @@
   tapping-term-ms = <170>;
 };
 
+&sk {
+  release-after-ms = <500>;
+  quick-release;
+};
+
 / {
 
   // #include "combos.dtsi"
