@@ -6,7 +6,8 @@
 #define BASE 0
 #define NAV  1
 #define SYM  2
-#define NFN  3
+#define FUN  3
+#define SYS  4
 
 &mt {
   flavor = "hold-preferred";
@@ -31,7 +32,7 @@
     compatible = "zmk,conditional-layers";
       tri_layer {
           if-layers = <NAV SYM>;
-          then-layer = <NFN>;
+          then-layer = <FUN>;
       };
   };
 
